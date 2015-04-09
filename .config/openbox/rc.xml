@@ -199,6 +199,10 @@
 <keyboard>
   <chainQuitKey>Escape</chainQuitKey>
 
+  <keybind key="W-d">
+    <action name="ToggleShowDesktop"><strict>yes</strict></action>
+  </keybind>
+
   <!-- Keybindings for desktop switching -->
   <keybind key="C-A-Left">
     <action name="GoToDesktop"><to>left</to><wrap>no</wrap></action>
