@@ -386,6 +386,46 @@
     <action name="SendToDesktop"><to>12</to></action>
   </keybind>
 
+  <keybind key="W-1">
+    <action name="Unmaximize"/>
+    <action name="MoveResizeTo"><monitor>1</monitor></action>
+    <action name="MoveResizeTo">
+      <x>0</x>
+      <width>500</width>
+    </action>
+    <action name="ToggleMaximize"><direction>vertical</direction></action>
+  </keybind>
+
+  <keybind key="W-2">
+    <action name="Unmaximize"/>
+    <action name="MoveResizeTo"><monitor>1</monitor></action>
+    <action name="MoveResizeTo">
+      <x>-0</x>
+      <width>1180</width>
+    </action>
+    <action name="ToggleMaximize"><direction>vertical</direction></action>
+  </keybind>
+
+  <keybind key="W-3">
+    <action name="Unmaximize"/>
+    <action name="MoveResizeTo"><monitor>2</monitor></action>
+    <action name="MoveResizeTo">
+      <x>0</x>
+      <width>1180</width>
+    </action>
+    <action name="ToggleMaximize"><direction>vertical</direction></action>
+  </keybind>
+
+  <keybind key="W-4">
+    <action name="Unmaximize"/>
+    <action name="MoveResizeTo"><monitor>2</monitor></action>
+    <action name="MoveResizeTo">
+      <x>-0</x>
+      <width>500</width>
+    </action>
+    <action name="ToggleMaximize"><direction>vertical</direction></action>
+  </keybind>
+
   <!-- W-Escape keychain -->
 
   <keybind key="W-Escape" chroot="true">
