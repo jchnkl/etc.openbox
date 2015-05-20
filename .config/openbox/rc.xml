@@ -394,6 +394,7 @@
       <width>500</width>
     </action>
     <action name="ToggleMaximize"><direction>vertical</direction></action>
+    <action name="Raise"/>
   </keybind>
 
   <keybind key="W-2">
@@ -404,6 +405,7 @@
       <width>1180</width>
     </action>
     <action name="ToggleMaximize"><direction>vertical</direction></action>
+    <action name="Raise"/>
   </keybind>
 
   <keybind key="W-3">
@@ -414,6 +416,7 @@
       <width>1180</width>
     </action>
     <action name="ToggleMaximize"><direction>vertical</direction></action>
+    <action name="Raise"/>
   </keybind>
 
   <keybind key="W-4">
@@ -424,6 +427,7 @@
       <width>500</width>
     </action>
     <action name="ToggleMaximize"><direction>vertical</direction></action>
+    <action name="Raise"/>
   </keybind>
 
   <!-- W-Escape keychain -->
