@@ -397,66 +397,7 @@
 
 
   <keybind key="W-space">
-
-    <action name="If">
-      <!-- <title type="regex">.*(Vimperator|Muttator)$</title> -->
-      <title type="regex">.*(Vimperator)$</title>
-      <then>
-
-        <action name="Unmaximize"/>
-        <action name="MoveResizeTo"><monitor>next</monitor></action>
-
-        <action name="If">
-          <monitor>1</monitor>
-          <then>
-
-            <action name="MoveResizeTo">
-              <!-- <x>center</x> -->
-              <x>-0</x>
-              <!-- <x>&#45;0</x> -->
-              <width>1600</width>
-            </action>
-            <action name="ToggleMaximize"><direction>vertical</direction></action>
-
-          </then>
-          <else>
-
-            <action name="ToggleMaximize"/>
-
-          </else>
-        </action>
-
-      </then>
-    </action>
-
-    <action name="If">
-      <title type="regex">.*(Muttator)$</title>
-      <then>
-
-        <action name="Unmaximize"/>
-        <action name="MoveResizeTo"><monitor>next</monitor></action>
-
-        <action name="If">
-          <monitor>1</monitor>
-          <then>
-
-            <action name="MoveResizeTo">
-              <x>-0</x>
-              <width>1800</width>
-            </action>
-            <action name="ToggleMaximize"><direction>vertical</direction></action>
-
-          </then>
-          <else>
-
-            <action name="ToggleMaximize"/>
-
-          </else>
-        </action>
-
-      </then>
-    </action>
-
+    <action name="Lower"/>
   </keybind>
 
   <!--     <applications> -->
