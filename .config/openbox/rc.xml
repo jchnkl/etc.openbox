@@ -302,6 +302,20 @@
     </action>
     -->
 
+  <keybind key="W-Tab">
+    <action name="NextWindow">
+      <dialog>icons</dialog>
+      <raise>yes</raise>
+    </action>
+  </keybind>
+
+  <keybind key="W-S-Tab">
+    <action name="PreviousWindow">
+      <dialog>icons</dialog>
+      <raise>yes</raise>
+    </action>
+  </keybind>
+
   <keybind key="W-1">
     <action name="Unmaximize"/>
     <action name="MoveResizeTo"><monitor>1</monitor></action>
