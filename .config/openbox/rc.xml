@@ -484,6 +484,18 @@
     </action>
   </keybind>
 
+  <keybind key="W-n">
+    <action name="DesktopRight">
+      <dialog>yes</dialog>
+    </action>
+  </keybind>
+
+  <keybind key="W-p">
+    <action name="DesktopLeft">
+      <dialog>yes</dialog>
+    </action>
+  </keybind>
+
   <!-- W-w keychain -->
 
   <keybind key="W-w" chroot="true">
