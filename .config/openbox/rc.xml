@@ -388,21 +388,21 @@
 
   <keybind key="W-1">
     <action name="Unmaximize"/>
-    <action name="MoveResizeTo"><monitor>1</monitor></action>
+    <action name="MoveResizeTo"><monitor>2</monitor></action>
     <action name="MoveResizeTo">
       <x>0</x>
-      <width>500</width>
     </action>
     <action name="ToggleMaximize"><direction>vertical</direction></action>
+    <action name="ToggleMaximize"><direction>horizontal</direction></action>
     <action name="Raise"/>
   </keybind>
 
   <keybind key="W-2">
     <action name="Unmaximize"/>
-    <action name="MoveResizeTo"><monitor>1</monitor></action>
+    <action name="MoveResizeTo"><monitor>2</monitor></action>
     <action name="MoveResizeTo">
       <x>-0</x>
-      <width>1180</width>
+      <width>1500</width>
     </action>
     <action name="ToggleMaximize"><direction>vertical</direction></action>
     <action name="Raise"/>
@@ -410,25 +410,15 @@
 
   <keybind key="W-3">
     <action name="Unmaximize"/>
-    <action name="MoveResizeTo"><monitor>2</monitor></action>
+    <action name="MoveResizeTo"><monitor>1</monitor></action>
     <action name="MoveResizeTo">
       <x>0</x>
-      <width>1180</width>
     </action>
     <action name="ToggleMaximize"><direction>vertical</direction></action>
+    <action name="ToggleMaximize"><direction>horizontal</direction></action>
     <action name="Raise"/>
   </keybind>
 
-  <keybind key="W-4">
-    <action name="Unmaximize"/>
-    <action name="MoveResizeTo"><monitor>2</monitor></action>
-    <action name="MoveResizeTo">
-      <x>-0</x>
-      <width>500</width>
-    </action>
-    <action name="ToggleMaximize"><direction>vertical</direction></action>
-    <action name="Raise"/>
-  </keybind>
 
   <!-- W-Escape keychain -->
 
