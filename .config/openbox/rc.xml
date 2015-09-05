@@ -200,15 +200,114 @@
   <chainQuitKey>Escape</chainQuitKey>
 
   <keybind key="W-a">
-    <action name="NextWindow">
-      <interactive>no</interactive>
-    </action>
+    <action name="NextWindow"><interactive>no</interactive></action>
   </keybind>
 
   <keybind key="W-d">
-    <action name="ToggleShowDesktop">
-      <strict>yes</strict>
+    <action name="ToggleShowDesktop"><strict>yes</strict></action>
+  </keybind>
+
+  <!-- cycle {for,back}ward through windows -->
+
+  <keybind key="W-Tab">
+    <action name="NextWindow">
+      <dialog>icons</dialog>
+      <raise>yes</raise>
     </action>
+  </keybind>
+
+  <keybind key="W-S-Tab">
+    <action name="PreviousWindow">
+      <dialog>icons</dialog>
+      <raise>yes</raise>
+    </action>
+  </keybind>
+
+  <!-- Switch to {left,right} desktop -->
+
+  <keybind key="W-n">
+    <action name="DesktopRight"><dialog>yes</dialog></action>
+  </keybind>
+
+  <keybind key="W-p">
+    <action name="DesktopLeft"><dialog>yes</dialog></action>
+  </keybind>
+
+  <!-- send window to desktop on {right,left} -->
+
+  <keybind key="W-S-n">
+    <action name="SendToDesktop"><to>next</to></action>
+  </keybind>
+
+  <keybind key="W-S-p">
+    <action name="SendToDesktop"><to>previous</to></action>
+  </keybind>
+
+  <!-- maximize window {full,horizontal,vertical} -->
+
+  <keybind key="W-f">
+    <action name="ToggleMaximize" /><keepBorder>no</keepBorder></keybind>
+
+  <keybind key="W-s">
+    <action name="ToggleMaximize"><direction>horizontal</direction></action>
+  </keybind>
+
+  <keybind key="W-v">
+    <action name="ToggleMaximize"><direction>vertical</direction></action>
+  </keybind>
+
+  <!-- DirectionalCycleWindows -->
+
+  <keybind key="W-k">
+    <action name="DirectionalCycleWindows"><direction>north</direction></action>
+  </keybind>
+
+  <keybind key="W-j">
+    <action name="DirectionalCycleWindows"><direction>south</direction></action>
+  </keybind>
+
+  <keybind key="W-h">
+    <action name="DirectionalCycleWindows"><direction>west</direction></action>
+  </keybind>
+
+  <keybind key="W-l">
+    <action name="DirectionalCycleWindows"><direction>east</direction></action>
+  </keybind>
+
+  <!-- ResizeRelative -->
+
+  <keybind key="W-C-k">
+    <action name="ResizeRelative"><bottom>-10%</bottom></action>
+  </keybind>
+
+  <keybind key="W-C-j">
+    <action name="ResizeRelative"><bottom>+10%</bottom></action>
+  </keybind>
+
+  <keybind key="W-C-h">
+    <action name="ResizeRelative"><right>-10%</right></action>
+  </keybind>
+
+  <keybind key="W-C-l">
+    <action name="ResizeRelative"><right>+10%</right></action>
+  </keybind>
+
+  <!-- MoveToEdge -->
+
+  <keybind key="W-S-k">
+    <action name="MoveToEdge"><direction>north</direction></action>
+  </keybind>
+
+  <keybind key="W-S-j">
+    <action name="MoveToEdge"><direction>south</direction></action>
+  </keybind>
+
+  <keybind key="W-S-h">
+    <action name="MoveToEdge"><direction>west</direction></action>
+  </keybind>
+
+  <keybind key="W-S-l">
+    <action name="MoveToEdge"><direction>east</direction></action>
   </keybind>
 
   <!-- Keybindings for desktop switching -->
@@ -319,20 +418,6 @@
   <!--     </finalactions> -->
   <!--   </action> -->
   <!-- </keybind> -->
-
-  <keybind key="W-Tab">
-    <action name="NextWindow">
-      <dialog>icons</dialog>
-      <raise>yes</raise>
-    </action>
-  </keybind>
-
-  <keybind key="W-S-Tab">
-    <action name="PreviousWindow">
-      <dialog>icons</dialog>
-      <raise>yes</raise>
-    </action>
-  </keybind>
 
   <keybind key="W-1">
     <action name="Unmaximize"/>
@@ -463,99 +548,6 @@
 
     <!-- </then> -->
     <!-- </action> -->
-
-  <!-- MoveResizeTo monitor next/prev -->
-
-  <keybind key="W-S-n">
-    <action name="SendToDesktop"><to>next</to></action>
-  </keybind>
-
-  <keybind key="W-S-p">
-    <action name="SendToDesktop"><to>previous</to></action>
-  </keybind>
-
-  <!-- DirectionalCycleWindows -->
-
-  <keybind key="W-k">
-    <action name="DirectionalCycleWindows"><direction>north</direction></action>
-  </keybind>
-
-  <keybind key="W-j">
-    <action name="DirectionalCycleWindows"><direction>south</direction></action>
-  </keybind>
-
-  <keybind key="W-h">
-    <action name="DirectionalCycleWindows"><direction>west</direction></action>
-  </keybind>
-
-  <keybind key="W-l">
-    <action name="DirectionalCycleWindows"><direction>east</direction></action>
-  </keybind>
-
-  <!-- ResizeRelative -->
-
-  <keybind key="W-C-k">
-    <action name="ResizeRelative"><bottom>-10%</bottom></action>
-  </keybind>
-
-  <keybind key="W-C-j">
-    <action name="ResizeRelative"><bottom>+10%</bottom></action>
-  </keybind>
-
-  <keybind key="W-C-h">
-    <action name="ResizeRelative"><right>-10%</right></action>
-  </keybind>
-
-  <keybind key="W-C-l">
-    <action name="ResizeRelative"><right>+10%</right></action>
-  </keybind>
-
-  <!-- MoveToEdge -->
-
-  <keybind key="W-S-k">
-    <action name="MoveToEdge"><direction>north</direction></action>
-  </keybind>
-
-  <keybind key="W-S-j">
-    <action name="MoveToEdge"><direction>south</direction></action>
-  </keybind>
-
-  <keybind key="W-S-h">
-    <action name="MoveToEdge"><direction>west</direction></action>
-  </keybind>
-
-  <keybind key="W-S-l">
-    <action name="MoveToEdge"><direction>east</direction></action>
-  </keybind>
-
-  <keybind key="W-n">
-    <action name="DesktopRight">
-      <dialog>yes</dialog>
-    </action>
-  </keybind>
-
-  <keybind key="W-p">
-    <action name="DesktopLeft">
-      <dialog>yes</dialog>
-    </action>
-  </keybind>
-
-  <keybind key="W-f">
-    <action name="ToggleMaximize" />
-    <keepBorder>no</keepBorder>
-  </keybind>
-
-  <keybind key="W-s">
-    <action name="ToggleMaximize">
-      <direction>horizontal</direction>
-    </action>
-  </keybind>
-
-  <keybind key="W-v">
-    <action name="ToggleMaximize">
-      <direction>vertical</direction>
-    </action>
-  </keybind>
 
   <!-- W-Escape keychain -->
 
