@@ -561,70 +561,86 @@
 
   <keybind key="W-Escape" chroot="true">
 
-    <keybind key="n">
-      <action name="DesktopRight">
-        <dialog>yes</dialog>
+    <!-- MoveRelative -->
+
+    <keybind key="S-k">
+      <action name="MoveRelative">
+        <y>-10%</y>
       </action>
     </keybind>
 
-    <keybind key="p">
-      <action name="DesktopLeft">
-        <dialog>yes</dialog>
+    <keybind key="S-j">
+      <action name="MoveRelative">
+        <y>+10%</y>
       </action>
     </keybind>
 
-    <keybind key="W-f">
-      <action name="ToggleMaximize" />
-      <keepBorder>no</keepBorder>
-      <action name="BreakChroot"/>
-    </keybind>
-
-    <keybind key="W-h">
-      <action name="ToggleMaximize">
-        <direction>horizontal</direction>
+    <keybind key="S-h">
+      <action name="MoveRelative">
+        <x>-10%</x>
       </action>
-      <action name="BreakChroot"/>
     </keybind>
 
-    <keybind key="W-v">
-      <action name="ToggleMaximize">
-        <direction>vertical</direction>
+    <keybind key="S-l">
+      <action name="MoveRelative">
+        <x>+10%</x>
       </action>
-      <action name="BreakChroot"/>
     </keybind>
 
-    <keybind key="W-S-n">
-      <action name="MoveResizeTo">
-        <monitor>next</monitor>
+    <!-- ResizeRelative -->
+
+    <keybind key="C-k">
+      <action name="ResizeRelative">
+        <bottom>-10%</bottom>
       </action>
-      <action name="BreakChroot"/>
     </keybind>
 
-    <keybind key="W-S-p">
-      <action name="MoveResizeTo">
-        <monitor>prev</monitor>
+    <keybind key="C-j">
+      <action name="ResizeRelative">
+        <bottom>+10%</bottom>
       </action>
-      <action name="BreakChroot"/>
     </keybind>
 
-    <!-- Close window -->
+    <keybind key="C-h">
+      <action name="ResizeRelative">
+        <right>-10%</right>
+      </action>
+    </keybind>
 
-    <keybind key="W-e">
+    <keybind key="C-l">
+      <action name="ResizeRelative">
+        <right>+10%</right>
+      </action>
+    </keybind>
+
+    <!-- GrowToEdge -->
+
+    <keybind key="C-S-k">
+      <action name="GrowToEdge">
+        <direction>north</direction>
+      </action>
+    </keybind>
+
+    <keybind key="C-S-j">
+      <action name="GrowToEdge">
+        <direction>south</direction>
+      </action>
+    </keybind>
+
+    <keybind key="C-S-h">
+      <action name="GrowToEdge">
+        <direction>west</direction>
+      </action>
+    </keybind>
+
+    <keybind key="C-S-l">
+      <action name="GrowToEdge">
+        <direction>east</direction>
+      </action>
+    </keybind>
+
+    <keybind key="S-q">
       <action name="Close"/>
-      <action name="BreakChroot"/>
-    </keybind>
-
-    <!-- Reconfigure -->
-
-    <keybind key="W-r">
-      <action name="Reconfigure"/>
-      <action name="BreakChroot"/>
-    </keybind>
-
-    <keybind key="W-w">
-      <action name="NextWindow">
-        <interactive>no</interactive>
-      </action>
       <action name="BreakChroot"/>
     </keybind>
 
@@ -699,32 +715,6 @@
       <action name="BreakChroot"/>
     </keybind>
 
-    <!-- MoveRelative -->
-
-    <keybind key="k">
-      <action name="MoveRelative">
-        <y>-10%</y>
-      </action>
-    </keybind>
-
-    <keybind key="j">
-      <action name="MoveRelative">
-        <y>+10%</y>
-      </action>
-    </keybind>
-
-    <keybind key="h">
-      <action name="MoveRelative">
-        <x>-10%</x>
-      </action>
-    </keybind>
-
-    <keybind key="l">
-      <action name="MoveRelative">
-        <x>+10%</x>
-      </action>
-    </keybind>
-
     <!-- MoveToEdge -->
 
     <keybind key="S-k">
@@ -747,58 +737,6 @@
 
     <keybind key="S-l">
       <action name="MoveToEdge">
-        <direction>east</direction>
-      </action>
-    </keybind>
-
-    <!-- ResizeRelative -->
-
-    <keybind key="C-k">
-      <action name="ResizeRelative">
-        <bottom>-15%</bottom>
-      </action>
-    </keybind>
-
-    <keybind key="C-j">
-      <action name="ResizeRelative">
-        <bottom>+15%</bottom>
-      </action>
-    </keybind>
-
-    <keybind key="C-h">
-      <action name="ResizeRelative">
-        <right>-15%</right>
-      </action>
-    </keybind>
-
-    <keybind key="C-l">
-      <action name="ResizeRelative">
-        <right>+15%</right>
-      </action>
-    </keybind>
-
-    <!-- GrowToEdge -->
-
-    <keybind key="C-S-k">
-      <action name="GrowToEdge">
-        <direction>north</direction>
-      </action>
-    </keybind>
-
-    <keybind key="C-S-j">
-      <action name="GrowToEdge">
-        <direction>south</direction>
-      </action>
-    </keybind>
-
-    <keybind key="C-S-h">
-      <action name="GrowToEdge">
-        <direction>west</direction>
-      </action>
-    </keybind>
-
-    <keybind key="C-S-l">
-      <action name="GrowToEdge">
         <direction>east</direction>
       </action>
     </keybind>
