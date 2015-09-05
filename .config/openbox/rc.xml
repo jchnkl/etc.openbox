@@ -540,7 +540,24 @@
     </action>
   </keybind>
 
-  <!-- W-w keychain -->
+  <keybind key="W-f">
+    <action name="ToggleMaximize" />
+    <keepBorder>no</keepBorder>
+  </keybind>
+
+  <keybind key="W-s">
+    <action name="ToggleMaximize">
+      <direction>horizontal</direction>
+    </action>
+  </keybind>
+
+  <keybind key="W-v">
+    <action name="ToggleMaximize">
+      <direction>vertical</direction>
+    </action>
+  </keybind>
+
+  <!-- W-Escape keychain -->
 
   <keybind key="W-Escape" chroot="true">
 
