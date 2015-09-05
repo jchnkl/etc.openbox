@@ -439,38 +439,6 @@
     <action name="Lower"/>
   </keybind>
 
-  <!--     <applications> -->
-  <!--     <application class="Firefox"> -->
-
-  <!--       <action name="Unmaximize"/> -->
-  <!--       <action name="ToggleMaximize"><direction>vertical</direction></action> -->
-
-  <!--       <action name="If"> -->
-  <!--         <monitor>1</monitor> -->
-  <!--         <then> -->
-
-  <!--           <action name="MoveResizeTo"> <monitor>2</monitor> </action> -->
-  <!--           <action name="ToggleMaximize"></action> -->
-
-  <!--         </then> -->
-  <!--         <else> -->
-
-  <!--           <action name="MoveResizeTo"> -->
-  <!--             <monitor>1</monitor> -->
-  <!--             <x>760</x> -->
-  <!--             <width>1800</width> -->
-  <!--           </action> -->
-  <!--         </else> -->
-  <!--       </action> -->
-
-  <!-- </keybind> -->
-
-  <!--     </application> -->
-  <!--     </applications> -->
-
-    <!-- </then> -->
-    <!-- </action> -->
-
   <!-- W-Escape keychain -->
 
   <keybind key="W-Escape" chroot="true">
