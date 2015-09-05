@@ -386,68 +386,9 @@
     <action name="SendToDesktop"><to>12</to></action>
   </keybind>
 
-  <!-- <keybind key="A&#45;d"> -->
-  <!--   <action name="ToggleShowDesktop"/> -->
-  <!-- </keybind> -->
-
-  <!-- <keybind key="A&#45;Escape"> -->
-  <!--   <action name="Lower"/> -->
-  <!--   <action name="FocusToBottom"/> -->
-  <!--   <action name="Unfocus"/> -->
-  <!-- </keybind> -->
-  <!-- <keybind key="A&#45;space"> -->
-  <!--   <action name="ShowMenu"><menu>client&#45;menu</menu></action> -->
-  <!-- </keybind> -->
-
-  <!-- Keybindings for window switching -->
-  <!-- <keybind key="A&#45;Tab">
-    <action name="NextWindow">
-      <finalactions>
-        <action name="Focus"/>
-        <action name="Raise"/>
-        <action name="Unshade"/>
-      </finalactions>
-    </action>
-  </keybind> -->
-  <!-- <keybind key="A&#45;S&#45;Tab"> -->
-  <!--   <action name="PreviousWindow"> -->
-  <!--     <finalactions> -->
-  <!--       <action name="Focus"/> -->
-  <!--       <action name="Raise"/> -->
-  <!--       <action name="Unshade"/> -->
-  <!--     </finalactions> -->
-  <!--   </action> -->
-  <!-- </keybind> -->
-
   <keybind key="W-1">
     <action name="Unmaximize"/>
     <action name="MoveResizeTo"><monitor>1</monitor></action>
-
-    <!-- <action name="If"> -->
-    <!--   <title type="regex">.*(Vimperator)$</title> -->
-    <!--   <then> -->
-    <!--   <action name="MoveResizeTo"> -->
-    <!--     <x>0</x> -->
-    <!--     <width>1124</width> -->
-    <!--   </action> -->
-    <!--   </then> -->
-    <!--   <else> -->
-    <!--     <action name="MoveResizeTo"> -->
-    <!--       <x>0</x> -->
-    <!--       <width>760</width> -->
-    <!--     </action> -->
-    <!--   </else> -->
-    <!-- </action> -->
-
-    <!-- <action name="If"> -->
-    <!--   <title type="exact">GMPC</title> -->
-    <!--   <then> -->
-    <!--     <action name="MoveResizeTo"> -->
-    <!--       <x>&#45;0</x> -->
-    <!--       <!&#45;&#45; <width>800</width> &#45;&#45;> -->
-    <!--     </action> -->
-    <!--     <action name="ToggleMaximize"><direction>vertical</direction></action> -->
-    <!--   </then> -->
 
       <!-- <else> -->
         <action name="MoveResizeTo">
@@ -460,16 +401,6 @@
     <!-- </action> -->
   </keybind>
 
-  <!-- <keybind key="W&#45;2"> -->
-  <!--   <action name="Unmaximize"/> -->
-  <!--   <action name="MoveResizeTo"><monitor>1</monitor></action> -->
-  <!--   <action name="MoveResizeTo"> -->
-  <!--     <x>&#45;0</x> -->
-  <!--     <width>1800</width> -->
-  <!--   </action> -->
-  <!--   <action name="ToggleMaximize"><direction>vertical</direction></action> -->
-  <!-- </keybind> -->
-
   <keybind key="W-2">
     <action name="Unmaximize"/>
     <action name="MoveResizeTo"><monitor>1</monitor></action>
@@ -479,33 +410,7 @@
     </action>
     <action name="ToggleMaximize"><direction>vertical</direction></action>
 
-    <!-- <action name="MoveResizeTo"><monitor>2</monitor></action> -->
-    <!-- <action name="If"> -->
-    <!--   <title type="regex">.*(gmpc|Gmpc|GMPC).*</title> -->
-    <!--   <then> -->
-    <!--     <action name="ToggleMaximize"><direction>vertical</direction></action> -->
-    <!--     <action name="MoveResizeTo"> -->
-    <!--       <x>0</x> -->
-    <!--       <width>800</width> -->
-    <!--     </action> -->
-    <!--   </then> -->
-    <!--   <else> -->
-    <!--     <action name="ToggleMaximize"/> -->
-    <!--   </else> -->
-    <!-- </action> -->
   </keybind>
-
-<!--   <keybind key="W&#45;3"> -->
-<!--     <action name="Unmaximize"/> -->
-<!--  -->
-<!--     <action name="MoveResizeTo"> -->
-<!--       <x>0</x> -->
-<!--       <width>0</width> -->
-<!--       <monitor>next</monitor> -->
-<!--     </action> -->
-<!--  -->
-<!--     <action name="ToggleMaximize"><direction>vertical</direction></action> -->
-<!--   </keybind> -->
 
   <keybind key="W-3">
     <action name="MoveResizeTo"><monitor>2</monitor></action>
@@ -516,38 +421,6 @@
   <keybind key="W-space">
     <action name="Lower"/>
   </keybind>
-
-  <!--     <applications> -->
-  <!--     <application class="Firefox"> -->
-
-  <!--       <action name="Unmaximize"/> -->
-  <!--       <action name="ToggleMaximize"><direction>vertical</direction></action> -->
-
-  <!--       <action name="If"> -->
-  <!--         <monitor>1</monitor> -->
-  <!--         <then> -->
-
-  <!--           <action name="MoveResizeTo"> <monitor>2</monitor> </action> -->
-  <!--           <action name="ToggleMaximize"></action> -->
-
-  <!--         </then> -->
-  <!--         <else> -->
-
-  <!--           <action name="MoveResizeTo"> -->
-  <!--             <monitor>1</monitor> -->
-  <!--             <x>760</x> -->
-  <!--             <width>1800</width> -->
-  <!--           </action> -->
-  <!--         </else> -->
-  <!--       </action> -->
-
-  <!-- </keybind> -->
-
-  <!--     </application> -->
-  <!--     </applications> -->
-
-    <!-- </then> -->
-    <!-- </action> -->
 
   <!-- W-Escape keychain -->
 
