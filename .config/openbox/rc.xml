@@ -567,7 +567,7 @@
 
   <!-- W-w keychain -->
 
-  <keybind key="W-w" chroot="true">
+  <keybind key="W-Escape" chroot="true">
 
     <keybind key="Return">
       <action name="BreakChroot"/>
