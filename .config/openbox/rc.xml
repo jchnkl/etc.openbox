@@ -467,14 +467,14 @@
   <!-- MoveResizeTo monitor next/prev -->
 
   <keybind key="W-S-n">
-    <action name="MoveResizeTo">
-      <monitor>next</monitor>
+    <action name="SendToDesktop">
+      <to>next</to>
     </action>
   </keybind>
 
   <keybind key="W-S-p">
-    <action name="MoveResizeTo">
-      <monitor>prev</monitor>
+    <action name="SendToDesktop">
+      <to>previous</to>
     </action>
   </keybind>
 
