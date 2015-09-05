@@ -206,35 +206,12 @@
   </keybind>
 
   <keybind key="W-d">
-    <action name="ToggleShowDesktop"><strict>yes</strict></action>
+    <action name="ToggleShowDesktop">
+      <strict>yes</strict>
+    </action>
   </keybind>
 
   <!-- Keybindings for desktop switching -->
-
-  <!-- <keybind key="C&#45;A&#45;Left"> -->
-  <!--   <action name="GoToDesktop"><to>left</to><wrap>no</wrap></action> -->
-  <!-- </keybind> -->
-  <!-- <keybind key="C&#45;A&#45;Right"> -->
-  <!--   <action name="GoToDesktop"><to>right</to><wrap>no</wrap></action> -->
-  <!-- </keybind> -->
-  <!-- <keybind key="C&#45;A&#45;Up"> -->
-  <!--   <action name="GoToDesktop"><to>up</to><wrap>no</wrap></action> -->
-  <!-- </keybind> -->
-  <!-- <keybind key="C&#45;A&#45;Down"> -->
-  <!--   <action name="GoToDesktop"><to>down</to><wrap>no</wrap></action> -->
-  <!-- </keybind> -->
-  <!-- <keybind key="S&#45;A&#45;Left"> -->
-  <!--   <action name="SendToDesktop"><to>left</to><wrap>no</wrap></action> -->
-  <!-- </keybind> -->
-  <!-- <keybind key="S&#45;A&#45;Right"> -->
-  <!--   <action name="SendToDesktop"><to>right</to><wrap>no</wrap></action> -->
-  <!-- </keybind> -->
-  <!-- <keybind key="S&#45;A&#45;Up"> -->
-  <!--   <action name="SendToDesktop"><to>up</to><wrap>no</wrap></action> -->
-  <!-- </keybind> -->
-  <!-- <keybind key="S&#45;A&#45;Down"> -->
-  <!--   <action name="SendToDesktop"><to>down</to><wrap>no</wrap></action> -->
-  <!-- </keybind> -->
 
   <keybind key="W-F1">
     <action name="GoToDesktop"><to>1</to></action>
