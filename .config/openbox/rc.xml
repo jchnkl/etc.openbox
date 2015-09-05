@@ -733,45 +733,8 @@
       </action>
     </keybind>
 
-  <!-- W-a keychain -->
   </keybind>
 
-  <!-- Keybindings for window switching with the arrow keys -->
-  <!--
-  <keybind key="W-S-Right">
-    <action name="DirectionalCycleWindows">
-      <direction>right</direction>
-    </action>
-  </keybind>
-  <keybind key="W-S-Left">
-    <action name="DirectionalCycleWindows">
-      <direction>left</direction>
-    </action>
-  </keybind>
-  <keybind key="W-S-Up">
-    <action name="DirectionalCycleWindows">
-      <direction>up</direction>
-    </action>
-  </keybind>
-  <keybind key="W-S-Down">
-    <action name="DirectionalCycleWindows">
-      <direction>down</direction>
-    </action>
-  </keybind>
-  -->
-
-  <!-- Keybindings for running applications -->
-  <!--
-  <keybind key="W-e">
-    <action name="Execute">
-      <startupnotify>
-        <enabled>true</enabled>
-        <name>Konqueror</name>
-      </startupnotify>
-      <command>kfmclient openProfile filemanagement</command>
-    </action>
-  </keybind>
-  -->
 </keyboard>
 
 <mouse>
