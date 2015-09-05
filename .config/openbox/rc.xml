@@ -492,6 +492,24 @@
     <action name="DirectionalCycleWindows"><direction>east</direction></action>
   </keybind>
 
+  <!-- ResizeRelative -->
+
+  <keybind key="W-C-k">
+    <action name="ResizeRelative"><bottom>-10%</bottom></action>
+  </keybind>
+
+  <keybind key="W-C-j">
+    <action name="ResizeRelative"><bottom>+10%</bottom></action>
+  </keybind>
+
+  <keybind key="W-C-h">
+    <action name="ResizeRelative"><right>-10%</right></action>
+  </keybind>
+
+  <keybind key="W-C-l">
+    <action name="ResizeRelative"><right>+10%</right></action>
+  </keybind>
+
   <!-- MoveToEdge -->
 
   <keybind key="W-S-k">
