@@ -467,67 +467,47 @@
   <!-- MoveResizeTo monitor next/prev -->
 
   <keybind key="W-S-n">
-    <action name="SendToDesktop">
-      <to>next</to>
-    </action>
+    <action name="SendToDesktop"><to>next</to></action>
   </keybind>
 
   <keybind key="W-S-p">
-    <action name="SendToDesktop">
-      <to>previous</to>
-    </action>
+    <action name="SendToDesktop"><to>previous</to></action>
   </keybind>
 
   <!-- DirectionalCycleWindows -->
 
   <keybind key="W-k">
-    <action name="DirectionalCycleWindows">
-      <direction>north</direction>
-    </action>
+    <action name="DirectionalCycleWindows"><direction>north</direction></action>
   </keybind>
 
   <keybind key="W-j">
-    <action name="DirectionalCycleWindows">
-      <direction>south</direction>
-    </action>
+    <action name="DirectionalCycleWindows"><direction>south</direction></action>
   </keybind>
 
   <keybind key="W-h">
-    <action name="DirectionalCycleWindows">
-      <direction>west</direction>
-    </action>
+    <action name="DirectionalCycleWindows"><direction>west</direction></action>
   </keybind>
 
   <keybind key="W-l">
-    <action name="DirectionalCycleWindows">
-      <direction>east</direction>
-    </action>
+    <action name="DirectionalCycleWindows"><direction>east</direction></action>
   </keybind>
 
   <!-- MoveToEdge -->
 
   <keybind key="W-S-k">
-    <action name="MoveToEdge">
-      <direction>north</direction>
-    </action>
+    <action name="MoveToEdge"><direction>north</direction></action>
   </keybind>
 
   <keybind key="W-S-j">
-    <action name="MoveToEdge">
-      <direction>south</direction>
-    </action>
+    <action name="MoveToEdge"><direction>south</direction></action>
   </keybind>
 
   <keybind key="W-S-h">
-    <action name="MoveToEdge">
-      <direction>west</direction>
-    </action>
+    <action name="MoveToEdge"><direction>west</direction></action>
   </keybind>
 
   <keybind key="W-S-l">
-    <action name="MoveToEdge">
-      <direction>east</direction>
-    </action>
+    <action name="MoveToEdge"><direction>east</direction></action>
   </keybind>
 
   <keybind key="W-n">
