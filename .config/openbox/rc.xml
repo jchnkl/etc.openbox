@@ -421,97 +421,19 @@
 
   <keybind key="W-1">
     <action name="Unmaximize"/>
-    <action name="MoveResizeTo"><monitor>1</monitor></action>
-
-    <!-- <action name="If"> -->
-    <!--   <title type="regex">.*(Vimperator)$</title> -->
-    <!--   <then> -->
-    <!--   <action name="MoveResizeTo"> -->
-    <!--     <x>0</x> -->
-    <!--     <width>1124</width> -->
-    <!--   </action> -->
-    <!--   </then> -->
-    <!--   <else> -->
-    <!--     <action name="MoveResizeTo"> -->
-    <!--       <x>0</x> -->
-    <!--       <width>760</width> -->
-    <!--     </action> -->
-    <!--   </else> -->
-    <!-- </action> -->
-
-    <!-- <action name="If"> -->
-    <!--   <title type="exact">GMPC</title> -->
-    <!--   <then> -->
-    <!--     <action name="MoveResizeTo"> -->
-    <!--       <x>&#45;0</x> -->
-    <!--       <!&#45;&#45; <width>800</width> &#45;&#45;> -->
-    <!--     </action> -->
-    <!--     <action name="ToggleMaximize"><direction>vertical</direction></action> -->
-    <!--   </then> -->
-
-      <!-- <else> -->
-        <action name="MoveResizeTo">
-          <x>0</x>
-          <width>960</width>
-        </action>
-        <action name="ToggleMaximize"><direction>vertical</direction></action>
-      <!-- </else> -->
-
-    <!-- </action> -->
+    <action name="MoveResizeTo"><x>0</x><width>650</width></action>
+    <action name="ToggleMaximize"><direction>vertical</direction></action>
   </keybind>
-
-  <!-- <keybind key="W&#45;2"> -->
-  <!--   <action name="Unmaximize"/> -->
-  <!--   <action name="MoveResizeTo"><monitor>1</monitor></action> -->
-  <!--   <action name="MoveResizeTo"> -->
-  <!--     <x>&#45;0</x> -->
-  <!--     <width>1800</width> -->
-  <!--   </action> -->
-  <!--   <action name="ToggleMaximize"><direction>vertical</direction></action> -->
-  <!-- </keybind> -->
 
   <keybind key="W-2">
     <action name="Unmaximize"/>
-    <action name="MoveResizeTo"><monitor>1</monitor></action>
-    <action name="MoveResizeTo">
-      <x>-0</x>
-      <width>1600</width>
-    </action>
+    <action name="MoveResizeTo"><x>-0</x><width>1270</width></action>
     <action name="ToggleMaximize"><direction>vertical</direction></action>
-
-    <!-- <action name="MoveResizeTo"><monitor>2</monitor></action> -->
-    <!-- <action name="If"> -->
-    <!--   <title type="regex">.*(gmpc|Gmpc|GMPC).*</title> -->
-    <!--   <then> -->
-    <!--     <action name="ToggleMaximize"><direction>vertical</direction></action> -->
-    <!--     <action name="MoveResizeTo"> -->
-    <!--       <x>0</x> -->
-    <!--       <width>800</width> -->
-    <!--     </action> -->
-    <!--   </then> -->
-    <!--   <else> -->
-    <!--     <action name="ToggleMaximize"/> -->
-    <!--   </else> -->
-    <!-- </action> -->
   </keybind>
-
-<!--   <keybind key="W&#45;3"> -->
-<!--     <action name="Unmaximize"/> -->
-<!--  -->
-<!--     <action name="MoveResizeTo"> -->
-<!--       <x>0</x> -->
-<!--       <width>0</width> -->
-<!--       <monitor>next</monitor> -->
-<!--     </action> -->
-<!--  -->
-<!--     <action name="ToggleMaximize"><direction>vertical</direction></action> -->
-<!--   </keybind> -->
 
   <keybind key="W-3">
-    <action name="MoveResizeTo"><monitor>2</monitor></action>
-    <action name="Maximize"/>
+    <action name="Maximize"></action>
   </keybind>
-
 
   <keybind key="W-space">
     <action name="Lower"/>
