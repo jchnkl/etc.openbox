@@ -573,6 +573,18 @@
       <action name="BreakChroot"/>
     </keybind>
 
+    <keybind key="n">
+      <action name="DesktopRight">
+        <dialog>yes</dialog>
+      </action>
+    </keybind>
+
+    <keybind key="p">
+      <action name="DesktopLeft">
+        <dialog>yes</dialog>
+      </action>
+    </keybind>
+
     <keybind key="W-f">
       <action name="ToggleMaximize" />
       <keepBorder>no</keepBorder>
