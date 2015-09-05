@@ -546,10 +546,6 @@
 
   <keybind key="W-Escape" chroot="true">
 
-    <keybind key="Return">
-      <action name="BreakChroot"/>
-    </keybind>
-
     <keybind key="n">
       <action name="DesktopRight">
         <dialog>yes</dialog>
