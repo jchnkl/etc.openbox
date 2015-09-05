@@ -199,6 +199,12 @@
 <keyboard>
   <chainQuitKey>Escape</chainQuitKey>
 
+  <keybind key="W-a">
+    <action name="NextWindow">
+      <interactive>no</interactive>
+    </action>
+  </keybind>
+
   <keybind key="W-d">
     <action name="ToggleShowDesktop"><strict>yes</strict></action>
   </keybind>
