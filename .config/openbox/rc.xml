@@ -386,39 +386,6 @@
     <action name="SendToDesktop"><to>12</to></action>
   </keybind>
 
-  <!-- <keybind key="A&#45;d"> -->
-  <!--   <action name="ToggleShowDesktop"/> -->
-  <!-- </keybind> -->
-
-  <!-- <keybind key="A&#45;Escape"> -->
-  <!--   <action name="Lower"/> -->
-  <!--   <action name="FocusToBottom"/> -->
-  <!--   <action name="Unfocus"/> -->
-  <!-- </keybind> -->
-  <!-- <keybind key="A&#45;space"> -->
-  <!--   <action name="ShowMenu"><menu>client&#45;menu</menu></action> -->
-  <!-- </keybind> -->
-
-  <!-- Keybindings for window switching -->
-  <!-- <keybind key="A&#45;Tab">
-    <action name="NextWindow">
-      <finalactions>
-        <action name="Focus"/>
-        <action name="Raise"/>
-        <action name="Unshade"/>
-      </finalactions>
-    </action>
-  </keybind> -->
-  <!-- <keybind key="A&#45;S&#45;Tab"> -->
-  <!--   <action name="PreviousWindow"> -->
-  <!--     <finalactions> -->
-  <!--       <action name="Focus"/> -->
-  <!--       <action name="Raise"/> -->
-  <!--       <action name="Unshade"/> -->
-  <!--     </finalactions> -->
-  <!--   </action> -->
-  <!-- </keybind> -->
-
   <keybind key="W-1">
     <action name="Unmaximize"/>
     <action name="MoveResizeTo"><x>0</x><width>650</width></action>
