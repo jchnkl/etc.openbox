@@ -2,6 +2,7 @@
 !/.config
 !/.config/openbox
 !/.config/openbox/rc.docked.xml
+!/.config/openbox/rc.mobile.xml
 !/.config/openbox/rc.xml
 !/.gitignore.d
 !/.gitignore.d/openbox
