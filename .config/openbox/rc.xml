@@ -387,18 +387,26 @@
   </keybind>
 
   <keybind key="W-1">
+    <action name="MoveResizeTo"><monitor>2</monitor></action>
     <action name="Unmaximize"/>
     <action name="MoveResizeTo"><x>0</x><width>650</width></action>
     <action name="ToggleMaximize"><direction>vertical</direction></action>
   </keybind>
 
   <keybind key="W-2">
+    <action name="MoveResizeTo"><monitor>2</monitor></action>
     <action name="Unmaximize"/>
-    <action name="MoveResizeTo"><x>-0</x><width>1270</width></action>
+    <action name="MoveResizeTo"><x>-0</x><width>1920</width></action>
     <action name="ToggleMaximize"><direction>vertical</direction></action>
   </keybind>
 
   <keybind key="W-3">
+    <action name="MoveResizeTo"><monitor>3</monitor></action>
+    <action name="Unmaximize"/>
+    <action name="Maximize"/>
+  </keybind>
+
+  <keybind key="W-4">
     <action name="Maximize"></action>
   </keybind>
 
