@@ -203,6 +203,10 @@
     <action name="NextWindow"><interactive>no</interactive></action>
   </keybind>
 
+  <keybind key="W-S-a">
+    <action name="GoToDesktop"><to>last</to></action>
+  </keybind>
+
   <keybind key="W-d">
     <action name="ToggleShowDesktop"><strict>yes</strict></action>
   </keybind>
