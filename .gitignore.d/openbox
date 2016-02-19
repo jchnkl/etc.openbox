@@ -1,13 +1,5 @@
 *
-!/.config
-!/.config/openbox
 !/.config/openbox/rc.docked.xml
 !/.config/openbox/rc.mobile.xml
-!/.gitignore.d
 !/.gitignore.d/openbox
-!/.local
-!/.local/share
-!/.local/share/themes
-!/.local/share/themes/minimal
-!/.local/share/themes/minimal/openbox-3
 !/.local/share/themes/minimal/openbox-3/themerc
