@@ -421,6 +421,26 @@
   <keybind key="W-4">
     <action name="Unmaximize"/>
     <action name="MoveResizeTo"><monitor>2</monitor></action>
+    <action name="MoveResizeTo">
+      <y>0</y>
+      <height>960</height>
+    </action>
+    <action name="ToggleMaximize"><direction>horizontal</direction></action>
+  </keybind>
+
+  <keybind key="W-5">
+    <action name="Unmaximize"/>
+    <action name="MoveResizeTo"><monitor>2</monitor></action>
+    <action name="MoveResizeTo">
+      <y>-0</y>
+      <height>960</height>
+    </action>
+    <action name="ToggleMaximize"><direction>horizontal</direction></action>
+  </keybind>
+
+  <keybind key="W-6">
+    <action name="Unmaximize"/>
+    <action name="MoveResizeTo"><monitor>2</monitor></action>
     <action name="Maximize"/>
   </keybind>
 
