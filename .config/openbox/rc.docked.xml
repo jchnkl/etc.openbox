@@ -390,27 +390,65 @@
     <action name="SendToDesktop"><to>12</to></action>
   </keybind>
 
+  <!-- monitor 1: laptop -->
+  <!-- monitor 2: dell 30" -->
+  <!-- monitor 3: hp 24" -->
+
   <keybind key="W-1">
+    <action name="Unmaximize"/>
+    <action name="MoveResizeTo"><monitor>2</monitor></action>
+    <action name="MoveResizeTo"><x>0</x><width>650</width></action>
+    <action name="ToggleMaximize"><direction>vertical</direction></action>
+  </keybind>
+
+  <keybind key="W-2">
+    <action name="Unmaximize"/>
+    <action name="MoveResizeTo"><monitor>2</monitor></action>
+    <action name="MoveResizeTo"><x>-0</x><width>1270</width></action>
+    <action name="ToggleMaximize"><direction>vertical</direction></action>
+  </keybind>
+
+  <keybind key="W-3">
     <action name="Unmaximize"/>
     <action name="MoveResizeTo"><monitor>2</monitor></action>
     <action name="Maximize"/>
   </keybind>
 
-  <keybind key="W-2">
+  <keybind key="W-4">
     <action name="Unmaximize"/>
     <action name="MoveResizeTo"><monitor>1</monitor></action>
     <action name="MoveResizeTo"><x>0</x><width>650</width></action>
     <action name="ToggleMaximize"><direction>vertical</direction></action>
   </keybind>
 
-  <keybind key="W-3">
+  <keybind key="W-5">
     <action name="Unmaximize"/>
     <action name="MoveResizeTo"><monitor>1</monitor></action>
     <action name="MoveResizeTo"><x>-0</x><width>1920</width></action>
     <action name="ToggleMaximize"><direction>vertical</direction></action>
   </keybind>
 
-  <keybind key="W-4">
+  <keybind key="W-6">
+    <action name="Unmaximize"/>
+    <action name="MoveResizeTo"><monitor>1</monitor></action>
+    <action name="Maximize"/>
+  </keybind>
+
+  <keybind key="W-7">
+    <action name="Unmaximize"/>
+    <action name="MoveResizeTo"><monitor>3</monitor></action>
+    <action name="MoveResizeTo"><y>0</y><height>960</height></action>
+    <action name="ToggleMaximize"><direction>horizontal</direction></action>
+  </keybind>
+
+  <keybind key="W-8">
+    <action name="Unmaximize"/>
+    <action name="MoveResizeTo"><monitor>3</monitor></action>
+    <action name="MoveResizeTo"><y>-0</y><height>958</height></action>
+    <action name="ToggleMaximize"><direction>horizontal</direction></action>
+  </keybind>
+
+  <keybind key="W-9">
     <action name="Unmaximize"/>
     <action name="MoveResizeTo"><monitor>3</monitor></action>
     <action name="Maximize"/>
